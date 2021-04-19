@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-19T15:16:11.448Z",
+        "line": 3,
+        "name": "Signup into E-learn website",
+        "description": "",
+        "id": "signup-into-the-e-learning-website;signup-into-e-learn-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8792000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Signup into E-learn website",
+            "match": {
+              "location": "Assignment_Stepdefinition.Assignment_Stepdefinition.signup_into_e_learn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17613000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Fname,Lname,Email",
+            "match": {
+              "location": "Assignment_Stepdefinition.Assignment_Stepdefinition.enter_fname_lname_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16563000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Submit",
+            "match": {
+              "location": "Assignment_Stepdefinition.Assignment_Stepdefinition.click_on_submit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Signup"
+          }
+        ]
+      }
+    ],
+    "name": "Signup into the E-learning website",
+    "description": "",
+    "id": "signup-into-the-e-learning-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Signup/Signup.feature",
+    "tags": []
+  }
+]
